@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 1000px) {
+  main {
+    position: absolute;
+    flex-direction: column;
+    margin: 0 0 0 60px;
+  }
+}
+
+.title{
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.buy {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.shop {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.backbag, .shoes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+} 
+
+.backbag img, .shoes img {
+  width: 130px;
+  border-radius: 10px;
+}
+
+.backbag {
+  padding: 20px 10px 0 0;
+}
+
+.text-bag, .text-shoe {
+  width: 45%;
+  margin: 0 0 0 20px;
+}
+
+.text-bag h2, .text-shoe h2 {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.price, .count, .total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price h1 {
+  color: #F2994A;
+  font-size: 24px;
+}
+.price h3 {
+  text-decoration:line-through rgba(63, 61, 61, 0.719);
+  font-size: 15px;
+}
+
+.count {
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.count h2 {
+  font-size: 24px;
+  background-color: #b8b8b89d;
+  padding: 0 5px;
+}
+
+.total h1, .total h3 {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.rest {
+  margin: 80px 20px;
+}
+
+.form{
+  width: 100%;
+  color: #828282;
+}
+
+.form h3 {
+  margin-bottom: 15px;
+}
+
+.style {
+  width: 60%;
+  padding: 20px 0 20px 40px;
+  border-radius: 10px;
+}
+
+.generic {
+  margin-top: 20px;
+}
+
+.generic p{
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.label-p p{
+  margin-top: 20px;
+}
+
+.shipad{
+  margin-top: 50px;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon input {
+  padding-right: 30px; /* Espacio para el icono */
+}
+
+.input-with-icon i {
+  position: absolute;
+  top: 55px;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.aside {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.postal {
+width: 75%;
+
+}
+
+.country {
+  width: 80%;
+}
+
+.postal, .country {
+  
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.input-with-icon-as {
+  position: relative;
+}
+
+.input-with-icon-as input {
+  padding-right: 30px; /* Espacio para el icono */
+}
+
+.input-with-icon-as i {
+  position: absolute;
+  top: 65px;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.check {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 25%;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.btn button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #F2994A;
+  color: white;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
